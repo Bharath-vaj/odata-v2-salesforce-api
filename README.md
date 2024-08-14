@@ -47,15 +47,15 @@ When there is an external lookup relationship between an external object and a c
 
 **Process Overview:**
 1. **Create a New Flow:**
-   - In Salesforce, navigate to Setup, then go to **Flow Builder**.
-   - Click **New Flow** and select **Screen Flow** to start creating a flow that will interact with the user interface.
+   - In Salesforce, navigate to Setup, then go to `Flow Builder`.
+   - Click New Flow and select `Screen Flow` to start creating a flow that will interact with the user interface.
 
 2. **Add a Get Records Element:**
-   - Drag and drop the **Get Records** element onto the canvas.
+   - Drag and drop the `Get Records` element onto the canvas.
    - Configure it to fetch the external object’s fields based on the lookup relationship with your custom or standard object.
 
 3. **Add Screen Components:**
-   - Add a **Screen** element to your flow where you can display the fetched external object data.
+   - Add a `Screen` element to your flow where you can display the fetched external object data.
    - Use display components like text or rich text fields to show the external object fields retrieved by the flow.
 
 4. **Configure the Flow on Record Page:**
