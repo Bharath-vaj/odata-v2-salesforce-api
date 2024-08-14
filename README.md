@@ -1,8 +1,23 @@
-# odata-v2-salesforce-api
-Integrate Salesforce with an OData service using OData 2.0. This setup enables querying and manipulating Salesforce data in a standardized manner, facilitating efficient data exchange and interoperability between Salesforce and other systems that support OData 2.0.
-
 
 # Salesforce Lightning App Builder
+
+## Overview
+Salesforce Lightning App Builder is a powerful tool that enables users to create custom pages for Salesforce Lightning Experience and mobile apps. It offers a drag-and-drop interface to add components to a page and configure them without writing code. This flexibility allows Salesforce users to build personalized experiences that align with their business needs.
+
+One of the challenges faced in Salesforce is displaying fields from external objects—data that resides outside the Salesforce organization—on a Salesforce record page. Since this data is external, it cannot be viewed directly on the record page without implementing certain approaches. Below are three methods to achieve this.
+
+## Approaches to Viewing External Object Fields in Salesforce Record Pages
+
+### 1. Custom Lightning Component
+Custom Lightning Components allow you to create a tailored experience for displaying external object fields within Salesforce record pages. By leveraging Salesforce’s Lightning Web Components (LWC) or Aura Components, you can fetch and display data from external sources in real-time. This approach requires knowledge of JavaScript and Salesforce’s component framework, but it offers the highest level of customization.
+
+### 2. Salesforce Flow Builder
+When there is an external lookup relationship between the external object and a custom or standard object, Salesforce Flow Builder can be used to retrieve and display external object fields. Flow Builder provides a no-code solution where you can create automated processes that fetch external data and present it on record pages. This method is ideal for those who prefer a point-and-click interface without writing code.
+
+### 3. Indirect Lookup
+Indirect Lookup is a feature that allows you to link external object records with Salesforce records via an indirect lookup relationship. This method does not require additional development efforts or flow configuration. By using indirect lookups, you can view external object fields directly on Salesforce record pages as if they were native Salesforce data, simplifying the process of integrating external data.
+
+# Salesforce Lightning App Builder 2
 
 ## Overview
 
