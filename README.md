@@ -1,9 +1,7 @@
 # Salesforce Lightning App Builder
 
 ## Overview
-Salesforce Lightning App Builder is a powerful tool that enables users to create custom pages for Salesforce Lightning Experience and mobile apps. It offers a drag-and-drop interface to add components to a page and configure them without writing code. This flexibility allows Salesforce users to build personalized experiences that align with their business needs.
-
-One of the challenges faced in Salesforce is displaying fields from external objects—data that resides outside the Salesforce organization—on a Salesforce record page. Since this data is external, it cannot be viewed directly on the record page without implementing certain approaches. Below are three methods to achieve this.
+Salesforce Lightning App Builder allows users to create custom pages with a drag-and-drop interface, requiring no coding. However, displaying external object fields—data stored outside Salesforce—on record pages poses a challenge. This guide outlines three methods to achieve this: Custom Lightning Components, Salesforce Flow Builder, and Indirect Lookup relationships.
 
 ## Approaches to Viewing External Object Fields in Salesforce Record Pages
 
