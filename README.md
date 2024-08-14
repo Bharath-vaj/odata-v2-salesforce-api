@@ -59,7 +59,7 @@ When there is an external lookup relationship between an external object and a c
    - Use display components like text or rich text fields to show the external object fields retrieved by the flow.
 
 4. **Configure the Flow on Record Page:**
-   - Drag and drop the Flow -> Component onto the Record page.
+   - Drag and drop the `Flow` Component onto the Record page.
    - Configure the flow to start automatically when the record page loads, or trigger it based on specific user actions.
 
 ### 3. Indirect Lookup
