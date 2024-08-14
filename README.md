@@ -25,8 +25,7 @@ Custom Lightning Components allow you to create a tailored experience for displa
 - CustomObject.design
 - CustomObject.svg
 
-### Setup
-
+**Process Overview:**
 1. **Create the Record Page:**
 
    - Log in to Salesforce.
